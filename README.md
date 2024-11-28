@@ -24,6 +24,7 @@ Developed by: Eesha Ranka
 RegisterNumber:  24900107
 */
 ```
+```
 
 import pandas as pd
 import numpy as np
@@ -72,9 +73,11 @@ print("Actual:\n",y.values)
 xnew=np.array([[0,87,0,95,0,2,78,2,0,0,1,0]])
 y_prednew=predict(theta,xnew)
 print("Predicted Result:",y_prednew)
+```
 
 ## Output:
 ![logistic regression using gradient descent](sam.png)
+```
 
  sl_no gender  ssc_p    ssc_b  hsc_p    hsc_b     hsc_s  degree_p  \
 0      1      M  67.00   Others  91.00   Others  Commerce     58.00   
@@ -132,6 +135,8 @@ Actual:
  1 0 1 1 1 1 1 0 1 1 0 0 1 0 1 1 1 0 1 0 0 0 0 1 1 0 1 0 1 1 1 0 1 0 0 1 0
  1 0 1 0 0 0 1 1 1 0 1 1 1 0 1 1 0 1 1 1 1 0 1 0 1 1 1 1 1 0]
 Predicted Result: [1]
+
+```
 
 
 ## Result:
